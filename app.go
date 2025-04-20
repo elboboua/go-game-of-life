@@ -64,10 +64,5 @@ func main() {
 	w.SetFixedSize(true)
 	w.SetContent(c)
 
-	// Properly handle window close
-	// w.SetOnClosed(func() {
-	// 	a.Quit() // Quits the app when the window is closed
-	// })
-
 	w.ShowAndRun()
 }
